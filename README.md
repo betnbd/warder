@@ -1,6 +1,12 @@
 # Warder
 
-Warder is a mothballed Linux supervised-session prototype. This checkout keeps only the core Rust workspace and eBPF probe sources needed to inspect or revive the original CLI-oriented implementation.
+Warder is an experimental Rust toolkit for supervising local AI agents on Linux.
+Its command-line interface combines execution controls, file and network activity
+journals, and signed session receipts to make agent runs easier to inspect.
+
+The repository is archived and retains the core Rust workspace and optional eBPF
+probe sources for exploration and further development. Enforcement depends on host
+kernel capabilities; this prototype is not a complete security boundary.
 
 The removed material included the desktop app, release packaging, CI workflows, examples, integration demos, and product/security planning docs.
 
